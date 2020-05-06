@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/swellaby/.github/issues"
   },
-  "homepage": "https://github.com/swellaby/.github#readme"
+  "homepage": "https://github.com/swellaby/.github#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  }
 }
