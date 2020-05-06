@@ -1,7 +1,5 @@
 'use strict';
 
 module.exports = {
-    hooks: {
-
-    }
-};
+    ignore: 'node_modules'
+}

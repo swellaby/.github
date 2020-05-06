@@ -4,6 +4,14 @@
   "version": "1.0.0",
   "description": "Repository for shared default community health files across all Swellaby repositories ",
   "scripts": {
+    "lint": "npm run lint:js && npm run lint:md",
+    "lint:js": "eslint **/*.js",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint:md": "markdownlint **/*.md --config .markdownlint.js --ignore node_modules",
+    "lint:md:fix": "npm run lint:md -- --fix",
+    "lint:fix": "npm run lint:md:fix && npm run lint:js:fix",
+    "format": "prettier \"**/*.@(js|md|json|yml)\"",
+    "format:fix": "prettier --write \"**/*.@(js|md|json|yml)\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,8 +29,10 @@
   },
   "homepage": "https://github.com/swellaby/.github#readme",
   "devDependencies": {
+    "@swellaby/eslint-config": "^2.0.0",
+    "eslint": "^6.8.0",
     "husky": "^4.2.5",
-    "markdownlint": "^0.20.2",
+    "markdownlint-cli": "^0.23.0",
     "prettier": "^2.0.5"
   }
 }
