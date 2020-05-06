@@ -1,0 +1,23 @@
+{
+  "name": "@swellaby/github-community-health-files",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Repository for shared default community health files across all Swellaby repositories ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swellaby/.github.git"
+  },
+  "author": {
+    "email": "opensource@swellaby.com",
+    "name": "Swellaby",
+    "url": "http://swellaby.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swellaby/.github/issues"
+  },
+  "homepage": "https://github.com/swellaby/.github#readme"
+}
