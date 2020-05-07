@@ -1,0 +1,7 @@
+{
+  // prettier-ignore
+  "ignoreWords": [
+    "markdownlint",
+    "swellaby"
+  ]
+}

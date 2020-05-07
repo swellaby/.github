@@ -1,0 +1,9 @@
+node_modules/
+.testresults/
+.coverage/
+.nyc_output/
+*.tar*
+*.tgz*
+.ntvs_analysis.dat*
+npm-debug*
+**/.testcontext
