@@ -2,6 +2,7 @@
   // prettier-ignore
   "ignoreWords": [
     "markdownlint",
+    "socio",
     "swellaby"
   ]
 }

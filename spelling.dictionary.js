@@ -6,4 +6,7 @@ module.exports = [
     'NONINFRINGEMENT',
     'swellaby',
     'Swellaby',
+    // from Code Of Conduct
+    'sexualized',
+    'socio-economic',
 ];
