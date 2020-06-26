@@ -12,5 +12,7 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
+    - name: install dependencies
+      run: npm i
     - name: run lint check
       run: npm run lint
