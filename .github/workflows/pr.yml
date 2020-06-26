@@ -35,3 +35,18 @@ jobs:
       run: npm i
     - name: run spellchecker
       run: npm run spellcheck
+
+  format:
+    runs-on: ubuntu-latest
+    name: format
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: set up node
+      uses: actions/setup-node@v2-beta
+      with:
+        node-version: '12'
+    - name: install dependencies
+      run: npm i
+    - name: run format check
+      run: npm run format
