@@ -31,7 +31,7 @@
   "homepage": "https://github.com/swellaby/.github#readme",
   "devDependencies": {
     "@swellaby/eslint-config": "^2.0.0",
-    "eslint": "^7.12.1",
+    "eslint": "^7.13.0",
     "husky": "^4.3.0",
     "markdownlint-cli": "^0.24.0",
     "prettier": "^2.1.2",
