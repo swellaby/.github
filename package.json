@@ -32,7 +32,7 @@
   "devDependencies": {
     "@swellaby/eslint-config": "^2.0.0",
     "eslint": "^8.15.0",
-    "husky": "^4.3.8",
+    "husky": "^8.0.1",
     "markdownlint-cli": "^0.31.1",
     "prettier": "^2.6.2",
     "spellchecker-cli": "^4.10.0"
