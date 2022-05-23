@@ -35,6 +35,6 @@
     "husky": "^4.3.8",
     "markdownlint-cli": "^0.31.1",
     "prettier": "^2.6.2",
-    "spellchecker-cli": "^4.10.0"
+    "spellchecker-cli": "^4.11.0"
   }
 }
