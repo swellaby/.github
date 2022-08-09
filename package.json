@@ -33,7 +33,7 @@
     "@swellaby/eslint-config": "^2.0.0",
     "eslint": "^8.20.0",
     "husky": "^4.3.8",
-    "markdownlint-cli": "^0.32.0",
+    "markdownlint-cli": "^0.32.1",
     "prettier": "^2.7.1",
     "spellchecker-cli": "^6.0.2"
   }
