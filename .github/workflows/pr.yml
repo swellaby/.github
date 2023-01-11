@@ -15,7 +15,7 @@ jobs:
       - name: set up node
         uses: actions/setup-node@v2-beta
         with:
-          node-version: '12'
+          node-version: '18'
       - name: install dependencies
         run: npm i
       - name: run lint check
@@ -30,7 +30,7 @@ jobs:
       - name: set up node
         uses: actions/setup-node@v2-beta
         with:
-          node-version: '12'
+          node-version: '18'
       - name: install dependencies
         run: npm i
       - name: run spellchecker
@@ -45,7 +45,7 @@ jobs:
       - name: set up node
         uses: actions/setup-node@v2-beta
         with:
-          node-version: '12'
+          node-version: '18'
       - name: install dependencies
         run: npm i
       - name: run format check
